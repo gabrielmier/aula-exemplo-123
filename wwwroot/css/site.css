@@ -2,7 +2,7 @@ html {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
@@ -15,4 +15,29 @@ html {
 
 body {
   margin-bottom: 60px;
+}  
+
+body{
+  background: rgb(70, 142, 236);
+  font: normal 15pt arial;
+}
+
+header{
+  color: white;
+  text-align: center;
+}
+
+section{
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.364);
+}
+
+footer{
+  color: white;
+  text-align: center;
+  font-style: italic;
 }
